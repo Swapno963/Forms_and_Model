@@ -50,14 +50,16 @@ class ExampleForm(forms.Form):
     # allow for multiple-choice selection, use ModelMultipleChoiceField. If you wish to change the drop-down menu to checkboxes, add the widget CheckboxSelectMultiple. 
     
 
-from django import forms
-from .models import MyModel
 
 # Create your forms here.
 
+# from django import forms
+# from .models import MyModel
 # class ExampleForm(forms.Form):
 #     model_choices = forms.ModelMultipleChoiceField(
 #         widget = forms.CheckboxSelectMultiple,
 #         queryset = MyModel.objects.all(),
 #         initial = 0
 #         )
+
+
